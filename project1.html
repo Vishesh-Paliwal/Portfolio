@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor Project</title>
+    <style>
+        /* Reset some default styles */
+body {
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/email-pattern.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section heading styles */
+h2 {
+  color: #007bff;
+}
+
+/* Description and Features styles */
+.description, .features {
+  margin-bottom: 30px;
+}
+
+.description ul, .features ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.description li, .features li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.description li::before, .features li::before {
+  content: "\2022"; /* Bullet character */
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+/* Screenshot styles */
+.screenshot img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Try Now button styles */
+/* .try-now .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.try-now .button:hover {
+  background-color: #0056b3;
+} */
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Image Editor Project</h1>
+        <p>An Interactive Java-Based Image Editor</p>
+    </header>
+
+    <section class="description">
+        <div class="container">
+            <h2>Overview</h2>
+            <p>Your image editor project is a powerful and user-friendly Java-based application designed to manipulate and enhance images. With a wide range of features, it allows users to:</p>
+            <ul>
+                <li>Convert images to grayscale</li>
+                <li>Flip images horizontally and vertically</li>
+                <li>Invert images</li>
+                <li>Rotate images by 90 degrees</li>
+                <li>Saturate images for a vibrant look</li>
+                <li>Apply a blur effect for artistic appeal</li>
+                <li>Rotate images 90 degrees counterclockwise</li>
+                <li>Adjust image brightness</li>
+                <li>View the original image</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>User-Friendly Interface:</strong> The intuitive user interface makes it easy for users to load, edit, and save images.</li>
+                <li><strong>Real-Time Preview:</strong> Users can see the effects of their edits in real-time, enhancing their editing experience.</li>
+                <li><strong>Diverse Editing Options:</strong> A variety of editing options provide users with creative control over their images.</li>
+                <li><strong>Image Export:</strong> Users can save their edited images in JPEG format for sharing and further use.</li>
+                <li><strong>Brightness Adjustment:</strong> Fine-tune the brightness of images to achieve the desired visual effect.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="screenshot">
+        <div class="container">
+            <h2>Screenshot</h2>
+            <img src="ImageEdit.png" alt="Screenshot of the Image Editor">
+        </div>
+    </section>
+
+    <!-- <section class="try-now">
+        <div class="container">
+            <h2>Try It Now</h2>
+            <p>Experience the power of the Image Editor by downloading and running the application on your computer. Simply click the "Open Image" button, choose an image file, and explore the various editing options. Save your edited images to share with friends and family.</p>
+            <a href="#" class="button">Download Now</a>
+        </div>
+    </section> -->
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Vishesh Paliwal</p>
+        </div>
+    </footer>
+</body>
+</html>
